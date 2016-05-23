@@ -1,7 +1,7 @@
 Feature: VAT report
 
   As an entrepreneur
-  I want a VAT report
+  I want to have a VAT report
   So that I can do the VAT declaration without thinking
 
 Scenario: Happy flow VAT with outgoing invoices and costs
