@@ -14,7 +14,7 @@ Scenario: Happy flow VAT with outgoing invoices and costs
   And the entrepeneur asks for the VAT report for the 2nd quarter of 2016
   Then the report has an services taxed with high rate of ""
   And the report has an VAT of ""
-  And te report has an voorbelasting of ""
+  And the report has an voorbelasting of ""
 
 Scenario: Report is not affected by changes afterwards
 
