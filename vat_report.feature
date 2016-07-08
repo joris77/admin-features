@@ -11,10 +11,10 @@ Scenario: Happy flow VAT with outgoing invoices and costs
   And today is "2016-06-30"
   And there is a journal entry for an incoming invoice with an amount of 300 ex VAT of 21%
   When today is "2016-07-26"
-  And the entrepeneur asks for the VAT report for the 2nd quarter of 2016
-  Then the report has an services taxed with high rate of ""
-  And the report has an VAT of ""
-  And the report has an voorbelasting of ""
+  And the entrepreneur asks for the VAT report for the 2nd quarter of 2016
+  Then the vat report has an services taxed with high rate of ""
+  And the vat report has an VAT of ""
+  And the vat report has a deducted VAT of ""
 
 Scenario: Report is not affected by changes afterwards
 
